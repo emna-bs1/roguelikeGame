@@ -39,5 +39,5 @@ class Arm(pygame.sprite.Sprite):
             self.kill()
 
     def collide(self):
-        return pygame.sprite.spritecollideany(self,Map.sprite_walls,False)
+        return pygame.sprite.spritecollideany(self, Map.sprite_walls, None)
 
